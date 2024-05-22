@@ -348,18 +348,3 @@ print("one_hop_neighbors_indices7",one_hop_neighbors_indices7)
 
 
 
-################
-##   type 8   ##
-################
-
-
-print("len of neighbors_indices8",len(two_hop_neighbors_indices4))
-#neighbors_indices8=[ele for ele in two_hop_neighbors_indices4 if ele not in two_hop_neighbors_indices1]
-neighbors_indices8=[ele for ele in two_hop_neighbors_indices4 if ele not in two_hop_neighbors_indices3]
-print("neighbors_indices8",len(neighbors_indices8))
-#neighbors_indices8=[ele for ele in neighbors_indices8 if ele not in one_hop_neighbors_indices5]
-#print("neighbors_indices8",len(neighbors_indices8))
-# Now one_hop_neighbors_indices dictionary contains the indices of 1-hop neighbors for each target node
-print("neighbors_indices8",neighbors_indices8)
-
-
